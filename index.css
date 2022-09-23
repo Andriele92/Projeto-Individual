@@ -1,0 +1,52 @@
+body{
+    color: rgb(233);
+    background-image: url(/img/plano-de-fundo-texturizado-de-concreto-vinheta-rosa-pastel_53876-129734.jpg);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    ul {
+        display: flex;
+        justify-content:flex-end;
+        list-style-type: none;
+        flex-direction: column;
+        margin-left: 900px;
+    
+    }
+    img {
+        width: 300px;
+        height: 300px;
+    
+        border: 5px solid rgb(82);
+    }
+    .center{
+        text-align: center;
+    }
+    a {
+        color: rgb(46, 23, 37);
+    }
+    .color {
+        color: rgb(54, 18, 38);
+    }
+    main {
+        font-size: 15px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    p {
+        color: rgb(220, 119, 194)
+    }
+     h1 {
+        font-size: 40px;
+     }
+     h4 {
+        font-size: 20px;
+     }
+     nav a:hover{
+        color:rgb(94)
+    
+     }
+     nav a:active{
+        color:rgb(15)
+     }
+     .emoji > li::before
+    {
+      content: "📌"
+    }
